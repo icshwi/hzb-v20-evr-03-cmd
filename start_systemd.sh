@@ -8,7 +8,7 @@ export E3_BIN_DIR="/epics/base-$BASE_VER/require/$REQUIRE_VER/bin"
 export PROCSERV="/usr/bin/procServ"
 export PROCSERV_PORT=2001
 export PROCSERV_RUN_DIR=$IOC_NAME
-export PROCSERV_LOG_FILE=out-HZB-V20-EVR-01
+export PROCSERV_LOG_FILE=out-HZB-V20-EVR-03
 
 export IOC_ST_CMD=st.$IOC_NAME.cmd
 source "$E3_BIN_DIR/setE3Env.bash"
